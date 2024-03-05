@@ -1,6 +1,6 @@
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
-let skills = document.querySelectorAll('skills');
+let skills = document.querySelectorAll('.skills');
 let navLinks = document.querySelectorAll('header nav a');
 
 window.onscroll = () => {
