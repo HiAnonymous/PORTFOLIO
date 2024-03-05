@@ -1,7 +1,7 @@
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
-let skills = document.querySelector('skills');
-let navLinks = document.querySelector('header nav a');
+let skills = document.querySelectorAll('skills');
+let navLinks = document.querySelectorAll('header nav a');
 
 window.onscroll = () => {
     skills.forEach(sec => {
